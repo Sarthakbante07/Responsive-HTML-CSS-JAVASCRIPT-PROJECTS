@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="main-page">
+        <div class="container">
+            <h4 id="status">Stoped Music</h4>
+            <div class="img-cont">
+                <img id="image" src="./Images/desktop-wallpaper-screensaver-for-to-aru-majutsu-no-index-anime-thunder-thumbnail.jpg">
+            </div>
+            <h1 id="name">Marathi Romance</h1>
+            <h2 id="artist">Ajay</h2>
+            <input type="range" value="0" id="progress">
+            <audio src="./music/marathi Romance.mp3"></audio>
+
+            <div class="buttons">
+                <div><i class="fa-solid fa-backward" id="back"></i></div>
+                <div><i class="fa-solid fa-play" id="play"></i></div>
+                <div><i class="fa-solid fa-forward" id="next"></i></div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(./images/runner.jpeg);
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    place-items: center;
+    font-size: 28px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    
+}
+.circle{
+    background-color: linear-gradient(red,blue);
+    border: 2PX solid purple;
+    color: white;
+    padding: 10px;
+    border-radius: 70%;
+    width: 55px;
+}
+.circle:hover{
+    cursor: pointer;
+    border: 2px solid #fdbb2d;
+}
+h1,h2{
+    color: white;
+    font-weight: 400;
+}

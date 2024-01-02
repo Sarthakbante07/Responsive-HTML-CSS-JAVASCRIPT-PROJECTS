@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.input{
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    border: 3px solid #ccc;
+    outline: none;
+    color: #fff;
+    background: transparent;
+}
+button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+button img{
+    width: 35px;
+}
+#message{
+    position: absolute;
+    bottom: -30px;
+    color: #fff;
+    font-size: 15px;
+    display: none;
+}

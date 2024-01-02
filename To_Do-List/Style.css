@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box; 
+ font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    background: linear-gradient(140.54deg, #608D00 0%, #D30000 72.37%), linear-gradient(360deg, #0029FF 0%, #8FFF00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
+background-blend-mode: color-dodge, overlay, difference, normal;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    background-color: whitesmoke;
+    width: 600px;
+    position: relative;
+    border-radius: 20px;
+}
+.workarea{
+    margin: 25px 25px 30px;
+}
+.heading{
+    display: flex;
+    gap: 20px;
+
+}
+.heading img{
+    width: 50px;
+    margin-top: -7px;
+    background-color: rgb(255, 106, 0);
+    padding: 3px;
+    border-radius: 10px;
+}
+.mainbody{
+    margin-top: 30px;
+}
+input{
+    border: 0px;
+    padding: 10px;
+    font-size: 17px;
+    width: 80%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.mainbody button{
+    margin-left: -12%;
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(144, 6, 144);
+    color: white;
+}
+.mainbody button:hover{
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    font-size: 15px;
+    padding: 12px 8px 12px 50px;
+    position: relative;
+    cursor: pointer;
+}
+ul li::before{
+    content: ' ';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: url(./images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 8px;
+    cursor: pointer; 
+}   
+ul li.check{
+    color: #555;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+ul li.check::before{
+    background-image: url(./images/checked.png);
+}
+span{
+    position:absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+span:hover{
+    background-color: #edeef0;
+    border-radius: 50%;
+    cursor: pointer;
+}
